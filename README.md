@@ -3,7 +3,7 @@
 ![GitHub repository](https://img.shields.io/badge/haithamaouati-maskurl-blue?style=flat-square&logo=github)
 ![GitHub version](https://img.shields.io/badge/version-1.0-yellow?style=flat-square)
 
-MaskURL 🎭 is a simple bash script to hide (Masking) phishing URL under a normal looking URL (Mask).
+MaskURL 🎭 is a simple bash script to hide (Masking) phishing URL under a normal looking URL with http/https.
 ## Screenshots
 
 ![Screenshot](https://raw.githubusercontent.com/haithamaouati/maskurl/main/screenshot.jpg?raw=true "Optional Title")
@@ -59,7 +59,9 @@ MaskURL 🎭 is a simple bash script to hide (Masking) phishing URL under a norm
 
 ## Environments
 
-* [**Termux**](https://termux.com)
+* Windows 10/11 (WSL)
+* Kali Linux
+* Android (Termux)
 
 ## Disclaimer
 
