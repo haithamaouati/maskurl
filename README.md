@@ -65,9 +65,9 @@ MaskURL 🎭 is a simple bash script to hide (Masking) phishing URL under a norm
 
 ## Environments
 
-* Windows 10/11 (WSL)
-* Kali Linux
-* Android (Termux)
+* Windows 10/11 `(WSL)`
+* Linux distros `Kali Linux`
+* Android `(Termux)`
 
 ## Disclaimer
 
