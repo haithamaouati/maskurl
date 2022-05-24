@@ -20,7 +20,8 @@ white=$'\e[0;37m'
 # Background colors
 bg_red=$'\e[0;41m'
 
-# ANSI formats                                          reset=$'\e[0m'
+# ANSI formats                
+reset=$'\e[0m'
 bold=$'\e[1m'
 faint=$'\e[2m'
 italics=$'\e[3m'
