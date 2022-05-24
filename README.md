@@ -61,6 +61,7 @@ MaskURL 🎭 simple tool for hide (Masking) phishing `URL` under a normal lookin
 
 ## Tasks
 
+   - [ ] Main menu
    - [ ] Short URL
 
 ## Environments
