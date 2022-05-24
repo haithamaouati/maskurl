@@ -13,6 +13,7 @@ MaskURL 🎭 is a simple bash script to hide (Masking) phishing URL under a norm
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
+- [Tasks](#tasks)
 - [Environments](#environments)
 - [Disclaimer](#disclaimer)
 - [Author](#author)
@@ -57,6 +58,10 @@ MaskURL 🎭 is a simple bash script to hide (Masking) phishing URL under a norm
    - [x] HTTP/HTTPS protocol
    - [x] Domain name
    - [x] Path words
+
+## Tasks
+
+   - [ ] Short URL
 
 ## Environments
 
