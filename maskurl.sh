@@ -1,26 +1,28 @@
 #!/bin/bash
-
 # Author: Haitham Aouati
 
-# Foreground colors                                     fg_black=$'\e[0;30m'
-fg_red=$'\e[0;31m'
-fg_green=$'\e[0;32m'                                    fg_yellow=$'\e[0;33m'
-fg_blue=$'\e[0;34m'                                     fg_purple=$'\e[0;35m'
-fg_cyan=$'\e[0;36m'
+# Foreground colors
+fg_black=$'\e[0;30m'
+fg_red=$'\e[0;31m'                     
+fg_green=$'\e[0;32m'
+fg_yellow=$'\e[0;33m'
+fg_blue=$'\e[0;34m'                    
+fg_purple=$'\e[0;35m'                          
+fg_cyan=$'\e[0;36m'         
 fg_gray=$'\e[0;90m'
-
+                                                                                      
 red=$'\e[0;91m'
 green=$'\e[0;92m'
-yellow=$'\e[0;93m'
+yellow=$'\e[0;93m'                        
 blue=$'\e[0;94m'
-purple=$'\e[0;95m'
+purple=$'\e[0;95m'               
 cyan=$'\e[0;96m'
 white=$'\e[0;37m'
-
-# Background colors
+                                                        
+# Background colors                           
 bg_red=$'\e[0;41m'
 
-# ANSI formats                
+# ANSI formats
 reset=$'\e[0m'
 bold=$'\e[1m'
 faint=$'\e[2m'
@@ -61,7 +63,7 @@ EOF
 
 echo -e "$reset$bold            MaskURL$reser\n"
 echo -e "$reset Author:$fg_blue Haitham Aouati"
-echo -e "$reset Version:$fg_yellow 1.0 $white\n"
+echo -e "$reset Version:$fg_yellow 1.1 $white\n"
 echo -e "$reset Repo: https://github.com/haithamaouati/maskurl\n"
 
 # Check url
@@ -75,7 +77,7 @@ url_checker() {
     fi
 }
 
-read -p "URL (http/https): " phish
+read -p "URL $green(HTTP/HTTPS)$reset: " phish
 url_checker $phish
 
 short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
@@ -83,10 +85,10 @@ shorter=${short#https://}
 
 echo -e "\n$yellow[*]$reset Masking URL...\n"
 
-read -p "URL Mask (http/https): " mask
+read -p "URL Mask $green(HTTP/HTTPS)$reset: " mask
 url_checker $mask
 
-read -p "Words (offcial-homepage-index): " words
+read -p "Words $yellow(index-home online-download): $reset" words
 echo -e "\n$yellow[*]$reset Generate masked link...\n"
 
 if [[ -z "$words" ]]; then
