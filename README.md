@@ -4,6 +4,7 @@
 ![GitHub version](https://img.shields.io/badge/version-1.1-yellow?style=flat-square)
 
 MaskURL 🎭 is an simple, small tool written in Bash Scripting for hide phishing URL under a normal looking URL with (HTTP/HTTPS) protocol and link path words.
+
 ## Screenshots
 
 ![Screenshot](https://raw.githubusercontent.com/haithamaouati/maskurl/main/screenshot.jpg?raw=true "Optional Title")
