@@ -65,18 +65,18 @@ MaskURL 🎭 is an simple, small tool written in Bash Scripting for hide phishin
 
 ## Tasks
 
-Tasks list ToDo
+> Tasks list ToDo
    - [ ] Main menu
    - [ ] Short URL
 
 ## Changelog
 
-Released: 2022-05-25.
+> Released: 2022-05-25.
    - [x] `ADD` code comments
 
 ## Environments
 
-Tested on
+> Tested on
 * Windows
     * Windows 10 `(WSL)`
     * Windows 11 `(WSL)`
