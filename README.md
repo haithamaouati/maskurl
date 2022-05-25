@@ -14,7 +14,7 @@ MaskURL 🎭 simple tool for hide (Masking) phishing `URL` under a normal lookin
 - [Usage](#usage)
 - [Features](#features)
     - [Tasks](#tasks)
-    - [Changelog](#changelog)
+        - [Changelog](#changelog)
 - [Environments](#environments)
 - [Disclaimer](#disclaimer)
 - [Author](#author)
@@ -64,8 +64,8 @@ MaskURL 🎭 simple tool for hide (Masking) phishing `URL` under a normal lookin
    - [x] Path words
 
 ## Tasks
-Tasks list ToDo
 
+Tasks list ToDo
    - [ ] Main menu
    - [ ] Short URL
 
@@ -76,9 +76,15 @@ Released: 2022-05-25.
 
 ## Environments
 
-* Windows 10/11 `(WSL)`
-* Linux distros `Kali Linux`
-* Android `(Termux)`
+Tested on
+* Windows
+    * Windows 10 `(WSL)`
+    * Windows 11 `(WSL)`
+* Linux distros
+    * Kali Linux
+    * Parrot Security OS
+* Android
+    * Termux
 
 ## Disclaimer
 
