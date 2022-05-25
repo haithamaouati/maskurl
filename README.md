@@ -14,6 +14,7 @@ MaskURL 🎭 simple tool for hide (Masking) phishing `URL` under a normal lookin
 - [Usage](#usage)
 - [Features](#features)
 - [Tasks](#tasks)
+- [Changelog](#changelog)
 - [Environments](#environments)
 - [Disclaimer](#disclaimer)
 - [Author](#author)
@@ -21,9 +22,12 @@ MaskURL 🎭 simple tool for hide (Masking) phishing `URL` under a normal lookin
  
 ## Installation
 
-1. Update & upgrade packages
+1. Update and upgrade packages
     ```
-    pkg update -yy && pkg upgrade -yy
+    pkg update -yy
+    ```
+    ```
+    pkg upgrade -yy
     ```
     
 2. Install git package
@@ -60,9 +64,15 @@ MaskURL 🎭 simple tool for hide (Masking) phishing `URL` under a normal lookin
    - [x] Path words
 
 ## Tasks
+Tasks list ToDo
 
    - [ ] Main menu
    - [ ] Short URL
+
+## Changelog
+
+Released: 2022-05-25.
+   - [x] `ADD` code comments
 
 ## Environments
 
